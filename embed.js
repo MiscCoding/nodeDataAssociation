@@ -31,29 +31,6 @@ newUser.posts.push({
 
 
 
-
-
-// newUser.save(function(err, user){
-//     if(err){
-//         console.log(err);
-//     } else {
-//         console.log(user);
-//     }
-// });
-
-// var newPost = new Post({
-//     title:"Reflections on Apples",
-//     content:"They are delicious"
-// });
-
-// newPost.save(function(err, post){
-//     if(err){
-//         console.log(err);
-//     } else {
-//         console.log(post);
-//     }
-// });
-
 User.findOne({name:"Hermione Granger"}, function(err, user){
     if(err) {
         console.log(err);
